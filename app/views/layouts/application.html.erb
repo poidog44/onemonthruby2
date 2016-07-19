@@ -9,10 +9,14 @@
   </head>
 
   <body>
-  <%= link_to "about", about_path %>
-	<%= link_to "home", root_path %>
 
+  <%= render 'navbar' %>  
+
+
+
+  <div class="container-fluid">
     <%= yield %>
-  
+  </div>
+
   </body>
 </html>
