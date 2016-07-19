@@ -2,5 +2,9 @@ $body-bg: #2ecc71;
 $navbar-default-toggle-hover-bg: #ddd;
 $text-color: #000;
 
+.center {
+	text-align:center;
+}
+
 @import "bootstrap-sprockets";
 @import "bootstrap";

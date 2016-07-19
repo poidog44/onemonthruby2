@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  devise_for :users
+
+  namespace :api do
+  	resources :posts
+  end
+
   root 'pages#home'
 
   get "about" => "pages#about"
